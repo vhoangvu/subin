@@ -1,0 +1,41 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "~vue-snotify/styles/material";
+
+.no-padding {
+	padding: 0px!important;
+}
+
+.no-padding-side {
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+
+.product-line {
+	border-bottom: 1px solid #d3e0e9; 
+	padding: 5px;
+	
+	.product-name {
+		padding-top: 5px;
+	}
+	
+	&.summary {
+		border-top: 2px solid #d3e0e9;
+	}
+}
+
+.home-button-div {
+	padding: 5px!important;
+}
+
+.panel-group {
+	margin-bottom: 0px!important;
+}
